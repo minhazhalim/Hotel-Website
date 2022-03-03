@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travelix Hotel Website</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css' integrity='sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==' crossorigin='anonymous'/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="index.html" class="logo"><img src="./images/logo.png" alt="Main Logo"></a>
+                <div class="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link">home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">about</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">offers</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">news</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="container">
+                <div class="main-heading">
+                    <h1 class="title">discover</h1>
+                    <h2 class="subtitle">luxury hotels</h2>
+                </div>
+                <a href="#" class="button button-gradient">
+                    explore now <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                </a>
+            </div>
+        </div>
+        <section class="booking">
+            <div class="container">
+                <form class="form">
+                    <div class="input-group">
+                        <label for="destination" class="input-label">destination</label>
+                        <input type="text" class="input" id="destination">
+                    </div>
+                    <div class="input-group">
+                        <label for="check-in" class="input-label">check in</label>
+                        <input type="date" class="input" id="check-in">
+                    </div>
+                    <div class="input-group">
+                        <label for="check-out" class="input-label">check out</label>
+                        <input type="date" class="input" id="check-out">
+                    </div>
+                    <div class="input-group">
+                        <label for="adults" class="input-label">adults</label>
+                        <select class="options" id="adults">
+                            <option value="0">0</option>
+                            <option value="0">1</option>
+                            <option value="0">2</option>
+                            <option value="0">3</option>
+                            <option value="0">4</option>
+                            <option value="0">5</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label for="children" class="input-label">children</label>
+                        <select class="options" id="children">
+                            <option value="0">0</option>
+                            <option value="0">1</option>
+                            <option value="0">2</option>
+                            <option value="0">3</option>
+                            <option value="0">4</option>
+                            <option value="0">5</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="button button-purple form-button">
+                        search <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </button>
+                </form>
+            </div>
+        </section>
+        <section class="hotels">
+            <div class="container">
+                <h5 class="section-head">
+                    <span class="heading">explore</span>
+                    <span class="sub-heading">our beautiful hotels</span>
+                </h5>
+                <div class="grid">
+                    <div class="grid-item featured-hotels">
+                        <img src="./images/hotel_astro_resort.jpg" alt="Astro Resort" class="hotel-image">
+                        <h5 class="hotel-name">astro hotel</h5>
+                        <span class="hotel-price">from $200/night</span>
+                        <div class="hotel-rating">
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star-half rating"></i>
+                        </div>
+                        <a href="#" class="button button-gradient">
+                            book now <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+                    <div class="grid-item featured-hotels">
+                        <img src="./images/hotel_the_enchanted_garden.jpg" alt="Enchanted Garden" class="hotel-image">
+                        <h5 class="hotel-name">enchanted garden</h5>
+                        <span class="hotel-price">from $300/night</span>
+                        <div class="hotel-rating">
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                        </div>
+                        <a href="#" class="button button-gradient">
+                            book now <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+                    <div class="grid-item featured-hotels">
+                        <img src="./images/hotel_the_paradise.jpg" alt="The Paradise" class="hotel-image">
+                        <h5 class="hotel-name">the paradise</h5>
+                        <span class="hotel-price">from $350/night</span>
+                        <div class="hotel-rating">
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star rating"></i>
+                            <i class="fas fa-star-half rating"></i>
+                        </div>
+                        <a href="#" class="button button-gradient">
+                            book now <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="offer">
+            <div class="container">
+                <div class="offer-content">
+                    <div class="discount">40% off</div>
+                    <h5 class="hotel-name">the paradise</h5>
+                    <div class="hotel-rating">
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star-half rating"></i>
+                    </div>
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse a optio dignissimos velit excepturi magni, in nobis possimus sunt sequi, tempora nostrum.</p>
+                    <a href="#" class="button button-gradient">
+                        redeem offer <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="rooms">
+            <div class="container">
+                <h5 class="section-head">
+                    <span class="head">luxurious</span>
+                    <span class="sub-heading">affordable rooms</span>
+                </h5>
+                <div class="grid rooms-grid">
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img src="./images/room_1.jpg" alt="Room 1" class="room-image">
+                            <h5 class="room-name">astro hotel</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$200 <span class="per-night">per night</span></span>
+                            <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam consectetur corrupti quos maiores.</p>
+                            <a href="#" class="button rooms-button">book now & &rrarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img src="./images/room_2.jpg" alt="Room 2" class="room-image">
+                            <h5 class="room-name">astro hotel</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$200 <span class="per-night">per night</span></span>
+                            <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam consectetur corrupti quos maiores.</p>
+                            <a href="#" class="button rooms-button">book now & &rrarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img src="./images/room_3.jpg" alt="Room 3" class="room-image">
+                            <h5 class="room-name">astro hotel</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$200 <span class="per-night">per night</span></span>
+                            <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam consectetur corrupti quos maiores.</p>
+                            <a href="#" class="button rooms-button">book now & &rrarr;</a>
+                        </div>
+                    </div>
+                    <div class="grid-item featured-rooms">
+                        <div class="image-wrap">
+                            <img src="./images/room_4.jpg" alt="Room 4" class="room-image">
+                            <h5 class="room-name">astro hotel</h5>
+                        </div>
+                        <div class="room-info-wrap">
+                            <span class="room-price">$200 <span class="per-night">per night</span></span>
+                            <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam consectetur corrupti quos maiores.</p>
+                            <a href="#" class="button rooms-button">book now & &rrarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container">
+                <h5 class="section-head">
+                    <span class="head">contact</span>
+                    <span class="sub-heading">get in touch with us</span>
+                </h5>
+                <div class="contact-content">
+                    <div class="traveler-wrap"><img src="./images/traveler.png" alt="Traveler Image"></div>
+                    <form class="form contact-form">
+                        <div class="input-group-wrap">
+                            <div class="input-group">
+                                <input type="text" class="input" placeholder="name" required>
+                                <span class="bar"></span>
+                            </div>
+                            <div class="input-group">
+                                <input type="email" class="input" placeholder="e-mail" required>
+                                <span class="bar"></span>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="input" placeholder="subject" required>
+                            <span class="bar"></span>
+                        </div>
+                        <div class="input-group">
+                            <textarea cols="30" rows="8" class="input" placeholder="e-mail" required></textarea>
+                            <span class="bar"></span>
+                        </div>
+                        <button type="submit" class="button button-purple form-button">
+                            send message <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-content-brand">
+                    <a href="index.html" class="logo"><img src="./images/logo.png" alt="Main Logo"></a>
+                    <p class="paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, sunt rerum? Quisquam eius magni cupiditate animi impedit, tempore totam at!</p>
+                </div>
+                <div class="social-media-wrap">
+                    <h4 class="footer-heading">follow us</h4>
+                    <div class="social-media">
+                        <a href="#" class="small-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="small-link"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" class="small-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="small-link"><i class="fab fa-pinterest"></i></a>
+                        <a href="#" class="small-link"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
